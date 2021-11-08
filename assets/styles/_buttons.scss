@@ -1,0 +1,22 @@
+button {
+    padding: 10px 20px;
+    box-shadow: 0 0 5px 1px $quaternary-color;
+    background-color: $tertiary-color;
+    color: $quaternary-color;
+    border-radius: 50px;
+}
+
+#keys__ac, #keys__polarity, #keys__percent {
+    color: rgb(255, 193, 116);
+} 
+
+
+#keys__equal {
+    background-color: $primary-color;
+    color: $tertiary-color;
+}
+
+#keys__divide, #keys__multiply, #keys__minus, #keys__plus {
+    background-image: linear-gradient( $secondary-color, $primary-color);
+    color: $tertiary-color;
+}
