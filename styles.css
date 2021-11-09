@@ -41,6 +41,10 @@ button {
     font-size: 60px;
   }
 }
+#screen {
+  font-size: 70px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -74,6 +78,7 @@ main > .keys__all {
   justify-content: center;
   grid-template-columns: 1fr 0.5fr;
   gap: 10%;
+  padding-left: 5px;
 }
 main > .keys__all > .keys {
   display: grid;
@@ -93,7 +98,10 @@ main > .keys__all > .keys__right {
 }
 
 #screen {
-  padding: 15% 50%;
+  height: 100px;
+  width: 350px;
+  padding: 10px;
   background-color: transparent;
   color: black;
+  text-align: end;
 }
