@@ -6,7 +6,7 @@ button {
   border-radius: 50px;
 }
 
-#keys__ac, #keys__polarity, #keys__percent {
+.keys__orange {
   color: #ffc174;
 }
 
@@ -15,7 +15,7 @@ button {
   color: white;
 }
 
-#keys__divide, #keys__multiply, #keys__minus, #keys__plus {
+.keys__orange_bg {
   background-image: linear-gradient(#ffc174, #ff616d);
   color: white;
 }
@@ -95,4 +95,5 @@ main > .keys__all > .keys__right {
 #screen {
   padding: 15% 50%;
   background-color: transparent;
+  color: black;
 }

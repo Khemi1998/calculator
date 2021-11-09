@@ -6,7 +6,7 @@ button {
     border-radius: 50px;
 }
 
-#keys__ac, #keys__polarity, #keys__percent {
+.keys__orange {
     color: rgb(255, 193, 116);
 } 
 
@@ -16,7 +16,7 @@ button {
     color: $tertiary-color;
 }
 
-#keys__divide, #keys__multiply, #keys__minus, #keys__plus {
+.keys__orange_bg {
     background-image: linear-gradient( $secondary-color, $primary-color);
     color: $tertiary-color;
 }
