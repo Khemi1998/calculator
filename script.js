@@ -16,7 +16,11 @@ buttons.forEach((button)=>{
             screen.innerHTML = "";
         }
     let number = event.target.value;
-    screen.innerHTML += number;
+
+    //setting character limit
+    if (screen.innerHTML.length  < 9) {
+        screen.innerHTML += number;
+    }
     });
 })
 //variables (values changes)
@@ -46,7 +50,7 @@ ans.addEventListener ("click",() => {
             screen.innerHTML = (number1/number2).toFixed(2);
             calc.innerHTML = number1 + " ÷ " + number2 + " = ";
             break;
-        case "×": //multiply
+        case "×": //multiply to 2 d.p
             screen.innerHTML = (number1*number2).toFixed(2);
             calc.innerHTML = number1 + " × " + number2 + " = ";
             break;
@@ -75,7 +79,7 @@ percent.addEventListener("click", () => {
 //clear
 ac.addEventListener("click", ()=>{
     screen.innerHTML = "";
-    calc.innerHTML = "";
+    calc.innerHTML = "here to solve your problems ☺";
     firstNum = 0;
     secondNum = 0;
     digit = 0;
