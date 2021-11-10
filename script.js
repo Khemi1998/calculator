@@ -47,7 +47,7 @@ ans.addEventListener ("click",() => {
             calc.innerHTML = number1 + " ÷ " + number2 + " = ";
             break;
         case "×": //multiply
-            screen.innerHTML = (number1*number2);
+            screen.innerHTML = (number1*number2).toFixed(2);
             calc.innerHTML = number1 + " × " + number2 + " = ";
             break;
         case "-": //minus
@@ -64,20 +64,21 @@ ans.addEventListener ("click",() => {
       }
 })
 
+//percent
 percent.addEventListener("click", () => {
     digit = screen.innerHTML;
-    let _digit = parseFloat(digit);
+    digit = parseFloat(digit);
 
-    screen.innerHTML = (digit/100).toFixed(2);
+    screen.innerHTML = (digit/100);
 })
 
 //clear
 ac.addEventListener("click", ()=>{
     screen.innerHTML = "";
     calc.innerHTML = "";
-    firstNum =0;
-    secondNum =0;
-    digit =0;
+    firstNum = 0;
+    secondNum = 0;
+    digit = 0;
 })
 
 //number polarity
