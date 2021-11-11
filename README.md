@@ -12,7 +12,7 @@
 
 <p>The polarity operator changes the displayed number to be then declared as the first or second number if the operators operators:÷, ×, -, + or = are clicked</p>
 
-<p>The AC function resets the displayed screen and resets the screen and the adjustable variables ready for a new calculation</p>
+<p>The AC single-click function removes the last digit of the displayed number. AC double-click function resets the displayed screen and resets the screen and the adjustable variables ready for a new calculation</p>
 
 <h4>Commits</h4>
 <p>First iteration: Design completion using HTML, SCSS</p>
@@ -23,4 +23,6 @@
 <p>Fifth iteration: Calculation shows on screen</p>
 <p>Sixth iteration: Fixed bug with decimal places when 0.33*10)</p>
 <p>Seventh iteration: Seventh iteration: adding character limit</p>
-<p>Eighth iteration: Changed the reset values of values to "" instead of 0</p>
+<p>Eighth iteration: Changed the reset values of values to "" instead of 0 and uploaded readme. and cleaned code</p>
+<p>Ninth iteration: Added single and double function to the AC button</p>
+<p>Tenth iteration: Making sure everything is up-to-date</p>
