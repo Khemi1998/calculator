@@ -76,14 +76,8 @@ percent.addEventListener("click", () => {
     screen.innerHTML = (digit/100);
 })
 
-//backspace function
-ac.addEventListener("click", ()=>{
-    digit = screen.innerHTML;
-    screen.innerHTML=digit.slice(0, digit.length-1); 
-})
-
 //clear
-ac.addEventListener("dblclick", ()=>{
+ac.addEventListener("click", ()=>{
     screen.innerHTML = "";
     calc.innerHTML = "here to solve your problems ☺";
     firstNum = "";
