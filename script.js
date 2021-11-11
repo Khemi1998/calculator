@@ -1,4 +1,4 @@
-//variables (sourced from .html)
+//constant variables (sourced from .html)
 const screen = document.querySelector("#screen");
 const calc = document.querySelector("#calculations");
 const buttons = document.querySelectorAll(".keys__orange, .keypad, .keys__orange_bg");
@@ -48,19 +48,19 @@ ans.addEventListener ("click",() => {
     switch (operation) { 
         case ("÷"): //divide to 2 d.p
             screen.innerHTML = (number1/number2).toFixed(2);
-            calc.innerHTML = number1 + " ÷ " + number2 + " = ";
+            calc.innerHTML = `${number1} ÷ ${number2} =`;
             break;
         case "×": //multiply to 2 d.p
             screen.innerHTML = (number1*number2).toFixed(2);
-            calc.innerHTML = number1 + " × " + number2 + " = ";
+            calc.innerHTML = `${number1} × ${number2} =`;
             break;
         case "-": //minus
             screen.innerHTML = (number1-number2);
-            calc.innerHTML = number1 + " - " + number2 + " = ";
+            calc.innerHTML = `${number1} - ${number2} =`;
             break;
         case "+": //plus
             screen.innerHTML = (number1+number2);
-            calc.innerHTML = number1 + " + " + number2 + " = ";
+            calc.innerHTML = `${number1} + ${number2} =`;
             break;
         default:
             screen.innerHTML = "error";
@@ -80,9 +80,9 @@ percent.addEventListener("click", () => {
 ac.addEventListener("click", ()=>{
     screen.innerHTML = "";
     calc.innerHTML = "here to solve your problems ☺";
-    firstNum = 0;
-    secondNum = 0;
-    digit = 0;
+    firstNum = "";
+    secondNum = "";
+    digit = "";
 })
 
 //number polarity
