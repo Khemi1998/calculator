@@ -75,8 +75,8 @@ percent.addEventListener("click", () => {
 
     screen.innerHTML = (digit/100);
 })
-
-//clear
+/
+//clear 
 ac.addEventListener("click", ()=>{
     screen.innerHTML = "";
     calc.innerHTML = "here to solve your problems ☺";
@@ -84,6 +84,16 @@ ac.addEventListener("click", ()=>{
     secondNum = "";
     digit = "";
 })
+
+//delete
+/*
+ac.addEventListener("click", ()=>{
+
+    digit= screen.innerHTML.slice(0,-1);
+    screen.innerHTML = digit;
+    
+})
+*/
 
 //number polarity
 polarity.addEventListener("click", ()=>{
