@@ -1,7 +1,7 @@
 //constant variables (sourced from .html)
 const screen = document.querySelector("#screen");
 const calc = document.querySelector("#calculations");
-const buttons = document.querySelectorAll(".keys__orange, .keypad, .keys__orange_bg");
+const buttons = document.querySelectorAll(".keypad, .keys__orange_bg");
 const operators = document.querySelectorAll (".keys__orange_bg");
 const ans = document.querySelector("#keys__equal");
 const percent = document.querySelector("#keys__percent")
@@ -75,9 +75,8 @@ percent.addEventListener("click", () => {
 
     screen.innerHTML = (digit/100);
 })
-/
-//clear 
-ac.addEventListener("click", ()=>{
+//clear when C double-clicked
+ac.addEventListener("dblclick", ()=>{
     screen.innerHTML = "";
     calc.innerHTML = "here to solve your problems ☺";
     firstNum = "";
@@ -85,15 +84,12 @@ ac.addEventListener("click", ()=>{
     digit = "";
 })
 
-//delete
-/*
+//delete when C is single-clicked
 ac.addEventListener("click", ()=>{
-
-    digit= screen.innerHTML.slice(0,-1);
-    screen.innerHTML = digit;
+    let newNumber= screen.innerHTML.slice(0, screen.innerHTML.length-1);
+    screen.innerHTML = newNumber;
     
 })
-*/
 
 //number polarity
 polarity.addEventListener("click", ()=>{
