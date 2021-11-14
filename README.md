@@ -30,3 +30,4 @@ The C double-click function resets the displayed screen and resets the screen an
 <p>Ninth iteration: Updating readme. Added double and single click function on AC</p>
 <p>Tenth iteration: Making sure everything is up-to-date on Git-hub</p>
 <p>Eleventh iteration: Fixing bug with delete function and changing button name</p>
+<p>Twelfth iteration: Made padding smaller</p>
