@@ -41,7 +41,8 @@ main {
         display: grid;
         justify-content: center;
         text-align: center;
-        grid-template-columns: 80px 80px 80px;
+        grid-template-columns: 40% 40% 40%;
+        padding-right: 7%;
         gap: 5%;
         
         >#keys__0 {
@@ -74,18 +75,19 @@ main {
     text-align: start;
 }
 
-@media only screen and (max-width: 700px) {
+//responsive on phones
+@media only screen and (max-width: 450px) {
+
+main {
+    width: 250px;
+}
 #screen {
     height: 60px;
-    width: 250px;
+    width: 95%;
 }
 
 #calculations {
     height: 30px;
-    width: 250px;
-}
-
-.keys {
-    gap: 1%;
+    width: 95%;
 }
 }

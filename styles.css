@@ -26,12 +26,17 @@ button:hover, #keys__equal:hover {
   color: black;
 }
 
+@media only screen and (max-width: 450px) {
+  button {
+    padding: 10px;
+  }
+}
 * {
   font-family: "Questrial", sans-serif;
 }
 
 h1 {
-  padding: 7% 10%;
+  padding: 7% 7%;
   padding-top: 5%;
   font-size: 50px;
   text-align: center;
@@ -41,21 +46,31 @@ button {
   font-size: 30px;
 }
 
-@media only screen and (min-width: 768px) {
-  h1 {
-    padding: 3% 10%;
-    padding-top: 5%;
-    font-size: 60px;
-  }
-}
 #screen {
-  font-size: 70px;
+  font-size: 60px;
 }
 
 #calculations {
-  font-size: 25px;
+  font-size: 40px;
 }
 
+@media only screen and (max-width: 450px) {
+  h1 {
+    display: none;
+  }
+
+  #screen {
+    font-size: 25px;
+  }
+
+  #calculations {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 20px;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -95,7 +110,8 @@ main > .keys__all > .keys {
   display: grid;
   justify-content: center;
   text-align: center;
-  grid-template-columns: 80px 80px 80px;
+  grid-template-columns: 40% 40% 40%;
+  padding-right: 7%;
   gap: 5%;
 }
 main > .keys__all > .keys > #keys__0 {
@@ -126,18 +142,18 @@ main > .keys__all > .keys__right {
   text-align: start;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 450px) {
+  main {
+    width: 250px;
+  }
+
   #screen {
     height: 60px;
-    width: 250px;
+    width: 95%;
   }
 
   #calculations {
     height: 30px;
-    width: 250px;
-  }
-
-  .keys {
-    gap: 1%;
+    width: 95%;
   }
 }

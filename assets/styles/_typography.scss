@@ -3,7 +3,7 @@
 }
 
 h1 {
-    padding: 7% 10%;
+    padding: 7% 7%;
     padding-top: 5%;
     font-size: 50px;
     text-align: center;
@@ -13,18 +13,29 @@ button {
     font-size: 30px;
 }
 
-@media only screen and (min-width: 768px) {
-    h1 {
-        padding: 3% 10%;
-        padding-top: 5%;
-        font-size: 60px;
-    }
-}
-
 #screen {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 #calculations {
-    font-size: 25px;
+    font-size: 40px;
+}
+
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        display: none;
+    }
+
+    #screen {
+        font-size: 25px;
+    }
+    
+    #calculations {
+        font-size: 20px;
+    }
+    
+    button {
+        font-size: 20px;
+    }
 }

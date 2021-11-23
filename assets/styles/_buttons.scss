@@ -25,3 +25,9 @@ button:hover, #keys__equal:hover {
     background-image: none;
     color: $quaternary-color;
 }
+
+@media only screen and (max-width: 450px) {
+    button{
+    padding: 10px;
+    }
+}
