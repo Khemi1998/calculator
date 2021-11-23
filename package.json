@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "<p>Created by Khemi Ramyead</p>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khemi1998/calculator.git"
+  },
+  "author": "Khemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khemi1998/calculator/issues"
+  },
+  "homepage": "https://github.com/Khemi1998/calculator#readme",
+  "dependencies": {
+    "cypress": "^9.0.0"
+  }
+}
