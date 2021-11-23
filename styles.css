@@ -34,6 +34,7 @@ h1 {
   padding: 7% 10%;
   padding-top: 5%;
   font-size: 50px;
+  text-align: center;
 }
 
 button {
@@ -123,4 +124,20 @@ main > .keys__all > .keys__right {
   background-color: transparent;
   color: #ff616d;
   text-align: start;
+}
+
+@media only screen and (max-width: 700px) {
+  #screen {
+    height: 60px;
+    width: 250px;
+  }
+
+  #calculations {
+    height: 30px;
+    width: 250px;
+  }
+
+  .keys {
+    gap: 1%;
+  }
 }

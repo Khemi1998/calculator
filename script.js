@@ -78,7 +78,7 @@ percent.addEventListener("click", () => {
 //clear when C double-clicked
 ac.addEventListener("dblclick", ()=>{
     screen.innerHTML = "";
-    calc.innerHTML = "here to solve your problems ☺";
+    calc.innerHTML = "";
     firstNum = "";
     secondNum = "";
     digit = "";
