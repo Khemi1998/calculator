@@ -1,26 +1,23 @@
 //constant variables (sourced from .html)
-const screen = document.querySelector("#screen");
-const calc = document.querySelector("#calculations");
-const buttons = document.querySelectorAll(".keypad, .keys__orange_bg");
-const operators = document.querySelectorAll (".keys__orange_bg");
-const ans = document.querySelector("#keys__equal");
+const screen = document.querySelector(".calculator__screen");
+const calc = document.querySelector(".calculator__calculations");
+const buttons = document.querySelectorAll(".calculator__key");
+const operators = document.querySelectorAll (".calculator__key--orange-bg");
+const equals = document.querySelector("#keys__equal");
 const percent = document.querySelector("#keys__percent")
 const ac = document.querySelector("#keys__ac");
 const polarity = document.querySelector("#keys__polarity");
 
-
 //display number
 buttons.forEach((button)=>{
     button.addEventListener("click",(event)=>{
-        if (screen.innerHTML == operation) {
+        if (screen.innerHTML === operation) {
             screen.innerHTML = "";
         }
     let number = event.target.value;
 
     //setting character limit
-    if (screen.innerHTML.length  < 9) {
         screen.innerHTML += number;
-    }
     });
 })
 //variables (values changes)
@@ -38,7 +35,7 @@ operators.forEach((operator)=>{
 })
 })
 //operatators
-ans.addEventListener ("click",() => {
+equals.addEventListener ("click",() => {
     secondNum = screen.innerHTML;
 
     //includes decimals

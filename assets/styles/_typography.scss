@@ -13,11 +13,11 @@ button {
     font-size: 30px;
 }
 
-#screen {
+.calculator__screen {
     font-size: 60px;
 }
 
-#calculations {
+.calculator__calculations {
     font-size: 40px;
 }
 
@@ -27,11 +27,11 @@ button {
         display: none;
     }
 
-    #screen {
+    .calculator__screen {
         font-size: 25px;
     }
     
-    #calculations {
+    .calculator__calculations {
         font-size: 20px;
     }
     

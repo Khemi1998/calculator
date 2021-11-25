@@ -6,7 +6,7 @@ button {
     border-radius: 50px;
 }
 
-.keys__orange {
+.calculator__key--orange {
     color: $secondary-color;
 } 
 
@@ -15,7 +15,7 @@ button {
     color: $tertiary-color;
 }
 
-.keys__orange_bg {
+.calculator__key--orange-bg {
     background-image: linear-gradient( $secondary-color, $primary-color);
     color: $tertiary-color;
 }

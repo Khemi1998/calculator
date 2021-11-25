@@ -6,7 +6,7 @@ button {
   border-radius: 50px;
 }
 
-.keys__orange {
+.calculator__key--orange {
   color: #ffc174;
 }
 
@@ -15,7 +15,7 @@ button {
   color: white;
 }
 
-.keys__orange_bg {
+.calculator__key--orange-bg {
   background-image: linear-gradient(#ffc174, #ff616d);
   color: white;
 }
@@ -46,11 +46,11 @@ button {
   font-size: 30px;
 }
 
-#screen {
+.calculator__screen {
   font-size: 60px;
 }
 
-#calculations {
+.calculator__calculations {
   font-size: 40px;
 }
 
@@ -59,11 +59,11 @@ button {
     display: none;
   }
 
-  #screen {
+  .calculator__screen {
     font-size: 25px;
   }
 
-  #calculations {
+  .calculator__calculations {
     font-size: 20px;
   }
 
@@ -86,7 +86,7 @@ body {
   height: 100vh;
 }
 
-main {
+.calculator {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,14 +99,14 @@ main {
   background-color: white;
   box-shadow: 0 0 16px 5px black;
 }
-main > .keys__all {
+.calculator > .calculator__keys__all {
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 0.5fr;
   gap: 10%;
   padding-left: 5px;
 }
-main > .keys__all > .keys {
+.calculator > .calculator__keys__all > .calculator__keys--left {
   display: grid;
   justify-content: center;
   text-align: center;
@@ -114,17 +114,17 @@ main > .keys__all > .keys {
   padding-right: 7%;
   gap: 5%;
 }
-main > .keys__all > .keys > #keys__0 {
+.calculator > .calculator__keys__all > .calculator__keys--left > #keys__0 {
   grid-column: 1/3;
 }
-main > .keys__all > .keys__right {
+.calculator > .calculator__keys__all > .calculator__keys--right {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 5%;
 }
 
-#screen {
+.calculator__screen {
   height: 100px;
   width: 350px;
   padding: 10px;
@@ -133,7 +133,7 @@ main > .keys__all > .keys__right {
   text-align: end;
 }
 
-#calculations {
+.calculator__calculations {
   height: 50px;
   width: 350px;
   padding: 10px;
@@ -143,16 +143,17 @@ main > .keys__all > .keys__right {
 }
 
 @media only screen and (max-width: 450px) {
-  main {
-    width: 250px;
+  .calculator {
+    width: 220px;
+    padding-bottom: 60px;
   }
 
-  #screen {
+  .calculator__screen {
     height: 60px;
     width: 95%;
   }
 
-  #calculations {
+  .calculator__calculations {
     height: 30px;
     width: 95%;
   }
