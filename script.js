@@ -16,8 +16,13 @@ buttons.forEach((button)=>{
         }
     let number = event.target.value;
 
+    //doesn't let the user input more than 1 dot into the number
+    if (screen.innerHTML.includes(".") && number == (".")){
+        return;
+    }else{
     //setting character limit
         screen.innerHTML += number;
+    }
     });
 })
 //variables (values changes)
