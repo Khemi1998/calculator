@@ -6,7 +6,7 @@ https://khemi1998.github.io/calculator/
 
 ![Screenshot 2021-12-27 at 19 48 42](https://user-images.githubusercontent.com/93138312/147503201-7253dae5-fa05-4c59-bc68-1c60975a0049.png)
 
-<h2>Introduction</h2> 
+<h2>Introduction</h2> ♾
 
 <p>The aim of this calculator is to perform any basic operations the user requests using JavaScript, HTML and SCSS. The answer is given in 2 decimal figures. The user is limited to inputting numbers up to nine characters.</p>
 
@@ -21,7 +21,7 @@ The C double-click function resets the displayed screen and resets the screen an
 
 <p>The calculator could be improved by implementing scienctific functions.</p>
 
-<h2>Commits</h2>
+<h2>Commits</h2> ✔️
 <p>First iteration: Design completion using HTML, SCSS</p>
 <p>Second iteration: Cleaned classes and right side functions are operational</p>
 <p>Third iteration: Made display font larger and all the buttons perform…  …
