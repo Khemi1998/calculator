@@ -1,6 +1,8 @@
-# Calculator
+# Calculator 
 
 <p>Created by Khemi Ramyead</p>
+
+<a hef="https://khemi1998.github.io/calculator/">click here for page</a>
 
 ![Screenshot 2021-12-27 at 19 48 42](https://user-images.githubusercontent.com/93138312/147503201-7253dae5-fa05-4c59-bc68-1c60975a0049.png)
 
