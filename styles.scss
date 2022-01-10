@@ -79,17 +79,18 @@ body {
 @media only screen and (max-width: 450px) {
 
 .calculator {
-    width: 220px;
+    height: 400px;
+    width: 260px;
     padding-bottom: 60px;
 }
 
 .calculator__screen {
-    height: 60px;
-    width: 95%;
+    height: 110%;
+    width: 100%;
 }
 
 .calculator__calculations {
-    height: 30px;
-    width: 95%;
+    height: 100%;
+    width: 100%;
 }
 }
