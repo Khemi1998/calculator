@@ -8,7 +8,7 @@ https://khemi1998.github.io/calculator/
 
 <h2>Introduction ♾</h2> 
 
-<p>The aim of this calculator is to perform any basic operations the user requests using JavaScript, HTML and SCSS. The answer is given in 2 decimal figures. The user is limited to inputting numbers up to nine characters.</p>
+<p>The aim of this calculator is to perform any basic operations the user requests. The answer is given in 2 decimal figures. The user is limited to inputting numbers up to nine characters.</p>
 
 <p>The calculator shows the digits by displaying the value of the number-button pressed by the user and adding them as strings. The string displayed is then declared as the first number when the operators:÷, ×, - or + are clicked. The screen clears when the number buttons are then clicked and repeats the process of adding the digits as strings. When the equal button is clicked the number displayed is then declared as the second number and changed from strings to number types to operate the user requests. the calculation is shown once = is clicked on the top of the screen.</p>
 
@@ -20,6 +20,13 @@ https://khemi1998.github.io/calculator/
 The C double-click function resets the displayed screen and resets the screen and the adjustable variables ready for a new calculation.</p>
 
 <p>The calculator could be improved by implementing scienctific functions.</p>
+
+<h2>Technologies 🧠</h2>
+<ul>
+  <li>JavaScript</li>
+  <li>SCSS</li>
+  <li>HTML</li>
+</ul>
 
 <h2>Commits ✔️</h2> 
 <p>First iteration: Design completion using HTML, SCSS</p>
